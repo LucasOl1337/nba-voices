@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="PVEMobConfig" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://PVE/core/pve_mob_config.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+mob_id = "square_hunter"
+display_name = "Square Hunter"
+max_health = 120.0
+hitbox_size = Vector2(52, 52)
+visual_size = Vector2(52, 52)
+visual_color = Color(0.9, 0.35, 0.25, 1)
+target_group = "players"
+max_target_distance = 1600.0
+disengage_distance = 2000.0
+think_interval = 0.1
+decision_noise = 0.04
+run_speed = 190.0
+chase_speed = 255.0
+acceleration = 1850.0
+jump_velocity = -470.0
+jump_cooldown = 0.75
+dash_speed = 560.0
+dash_duration = 0.17
+dash_cooldown = 0.95
+gravity_scale = 1.0
+chase_priority = 1.0
+run_priority = 0.72
+jump_priority = 0.8
+dash_priority = 0.92
+run_trigger_distance = 90.0
+chase_trigger_distance = 940.0
+jump_trigger_distance = 185.0
+jump_vertical_tolerance = 45.0
+dash_trigger_distance = 380.0
+dash_vertical_tolerance = 60.0
+prefer_jump_when_blocked = true
+prefer_dash_on_chase = true
